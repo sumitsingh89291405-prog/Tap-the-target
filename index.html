@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tap the Target</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game-card">
+    <h1>🎯 Tap the Target</h1>
+    <p class="subtitle">Tap the circle as many times as you can!</p>
+
+    <div class="stats">
+      <div>Score <span id="score">0</span></div>
+      <div>Time <span id="time">30</span>s</div>
+      <div>Best <span id="best">0</span></div>
+    </div>
+
+    <div id="gameArea">
+      <div id="message">Press START to play</div>
+      <button id="target" aria-label="Target"></button>
+    </div>
+
+    <button id="startBtn">START GAME</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
